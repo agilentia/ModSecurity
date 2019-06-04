@@ -30,6 +30,8 @@ v3.0.4 - YYYY-MMM-DD (to be released)
    [@rdiperri-yottaa, @danbiagini-work, @mmelo-yottaa, @zimmerle]
  - Missing throw in Operator::instantiate
    [Issue #2106 - @marduone]
+ - Adds support to multiple ranges in ctl:ruleRemoveTargetById
+   [Issue #2110 - @theMiddleBlue, @zimmerle]
  - Making block action execution dependent of the SecEngine status
    [Issue #2113, #2111 - @theMiddleBlue, @airween]
  - Making block action execution dependent of the SecEngine status
@@ -37,7 +39,7 @@ v3.0.4 - YYYY-MMM-DD (to be released)
  - Having body limits to respect the rule engine state
    [@zimmerle]
  - Fix SecRuleUpdateTargetById does not match regular expressions
-   [Issue #1872 - @zimmerle, @anush-cr, @victorhora, @j0k2r]  
+   [Issue #1872 - @zimmerle, @anush-cr, @victorhora, @j0k2r]
  - Adds missing check for runtime ctl:ruleRemoveByTag
    [Issue #2102, #2099 - @airween]
  - Adds a new operator verifySVNR that checks for Austrian social
@@ -98,7 +100,7 @@ v3.0.4 - YYYY-MMM-DD (to be released)
  - Adds support to multiple ranges in ctl:ruleRemoveById
    [Issue #1956 - @theseion, @victorhora, @zimmerle]
  - Rule variable interpolation broken
-   [Issue #1961 - @soonum, @zimmerle] 
+   [Issue #1961 - @soonum, @zimmerle]
  - Make the boundary check less strict as per RFC2046
    [Issue #1943 - @victorhora, @allanbomsft]
  - Fix buffer size for utf8toUnicode transformation
@@ -239,7 +241,7 @@ v3.0.3 - 2018-Nov-05
    [Issue #1739 - @p0pr0ck5]
  - Fix utils::string::ssplit() to handle delimiter in the end of string
    [Issue #1743, #1744 - @defanator]
- - Fix variable FILES_TMPNAMES 
+ - Fix variable FILES_TMPNAMES
    [Issue #1646, #1610 - @victorhora, @zimmerle, @defanator]
  - Fix memory leak in Collections
    [Issue #1729, #1730 - @defanator]
@@ -341,7 +343,7 @@ v3.0.0 - 2017-Dec-13
  - Adds support to WEBAPPID variable.
    [Issue #1027 - @zimmerle, @victorhora]
  - Adds support for SecWebAppId.
-   [Issue #1442 - @zimmerle, @victorhora] 
+   [Issue #1442 - @zimmerle, @victorhora]
  - Adds support for SecRuleRemoveByTag.
    [Issue #1476 - @zimmerle, @victorhora]
  - Adds support for update target by message.
@@ -404,4 +406,3 @@ v3.0.0-rc1 - 2017-Aug-28
 ------------------------
 
  Very first public version.
-
